@@ -1,0 +1,159 @@
+:root {
+    --branding-color: #6c63ff;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+
+.hero {
+    background: #f9f7fe;
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.hero p {
+    font-family: var(--default-font-family);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+    line-height: 54px;
+    opacity: 1;
+}
+
+.hero h1 {
+    font-family: var(--heading-font-family);
+    font-size: 96px;
+    line-height: 1.5;
+}
+
+.hero h2 {
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #272142;
+}
+
+.content-conteiner {
+    padding: 160px 20px;
+}
+
+.content h1 {
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+    line-height: 85.31px;
+    color: black;
+}
+
+.content h2 {
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    line-height: 27px;
+} 
+
+.content h3 {
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    color: black;
+}
+
+.content p {
+    font-family: var(--default-font-family);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.content {
+    margin: 30px;
+}
+
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.btn-branding:hover {
+    background: var(--branding-color);
+}
+
+h3 {
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    color: #272142;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+p {
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #272142;
+    opacity: 0.7;
+}
+
+h2 {
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.btn-branding-learn {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.btn-branding-learn:hover {
+    border: 1px solid var(--branding-color);
+}
+
+.project-desciption {
+    padding: 120px 60px; 
+}
+
+.photo {
+    border-radius: 18px;
+}
+
+
+@media (max-width: 900px) {
+    .hero h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+    h2 {
+    font-size: 44px;
+}
+    .hero {
+    padding: 80px 20px;
+    }
+
+    .content {
+    text-align: center;
+    padding: 0;
+}
+
+    .project-desciption {
+    padding: 0;
+    text-align: center;
+}
+
+    .content h1 {
+    font-size: 44px;
+    line-height: 1.2;
+}
+}
